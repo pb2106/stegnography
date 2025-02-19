@@ -22,8 +22,8 @@ python --version
 ### Step 1: Clone or Download the Repository
 Clone this repository using Git or download the script manually.
 ```bash
-git clone https://github.com/your-username/steganography-tool.git
-cd steganography-tool
+git clone https://github.com/pb2106/stegnography.git
+cd steganography
 ```
 
 ### Step 2: Install Required Dependencies
@@ -35,7 +35,7 @@ pip install pillow stegano
 ## How to Run
 Execute the following command in your terminal or command prompt:
 ```bash
-python steganography_tool.py
+python stego.py
 ```
 
 ## Usage
@@ -60,10 +60,3 @@ python steganography_tool.py
 - **No image selected?** Ensure you have chosen an image before encrypting/decrypting.
 - **No message found?** Make sure the image actually contains a hidden message.
 - **Error while saving?** Ensure you have the correct file permissions.
-
-## License
-This project is open-source under the **MIT License**.
-
-## Author
-Developed by **Your Name**. Feel free to contribute and improve the project!
-
